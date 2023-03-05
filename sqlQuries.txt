@@ -1,0 +1,9 @@
+used Postgres Db
+
+
+
+create table station (station_id integer, station_name varchar(100), station_image varchar(100),station_pricing integer,station_address varchar(100));
+		insert into station (station_id, station_name, station_image, station_pricing,station_address) values (1, 'albert', 'einstein',100,'test1');
+		insert into station (station_id, station_name, station_image,station_pricing,station_address) values (2, 'isaac', 'newton',100,'test1');
+		insert into station (station_id, station_name, station_image,station_pricing,station_address) values (3, 'marie', 'curie',100,'test1');
+		select * from station;
